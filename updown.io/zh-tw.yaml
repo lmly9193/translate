@@ -25,17 +25,17 @@ zh-tw:
     page:
       title: "%{site} 的狀態頁面"
       header: 狀態頁面
-    last_check: 最後一次檢查
+    last_check: 最後檢查
     not_checked: 這個網址還沒有被檢查過
-    rolling_uptime: 近一個月上線時間 (從 %{date} 開始)
+    rolling_uptime: 最近一個月的上線時間 (從 %{date} 開始)
     last_hours:
       one: 一小時前
       other: 最近 %{count} 小時
-    last_months: 近幾個月
+    last_months: 過去幾個月
     na: N/A
-    uptime: 上線
+    uptime: 正常運行時間
     timings:
-      including_latency: "(<small>incl.</small>&nbsp;延遲)"
+      including_latency: "(含延遲)"
       total: '總時間:'
       redirections: 重新導向
       dns: 域名查詢
@@ -43,9 +43,9 @@ zh-tw:
       tls: TLS交握
       response: 回應時間
     cal:
-      downtime: "%{duration} 離線"
-      no_downtime: 沒有離線時間
+      downtime: "%{duration} 持續離線"
+      no_downtime: 正常運行
       incomplete_day: 當天只檢測到 %{percent}% 的數據
       no_data: 沒有數據
-      lt15_downtime: "離線小於15分鐘"
-      gt15_downtime: "離線超過15分鐘"
+      lt15_downtime: "離線時間<15分鐘"
+      gt15_downtime: "離線時間>15分鐘"
