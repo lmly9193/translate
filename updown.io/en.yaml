@@ -1,0 +1,51 @@
+en:
+  durations:
+    short:
+      hours: h
+      minutes: m
+      seconds: s
+  countries:
+    au: Australia
+    ca: Canada
+    de: Germany
+    fr: France
+    jp: Japan
+    sg: Singapore
+    us: USA
+  cities:
+    Roubaix: Roubaix
+    Los Angeles: Los Angeles
+    Miami: Miami
+    Montreal: Montreal
+    Frankfurt: Frankfurt
+    Singapore: Singapore
+    Tokyo: Tokyo
+    Sydney: Sydney
+  status:
+    page:
+      title: "%{site} status page"
+      header: Status page
+    last_check: Last check
+    not_checked: This URL has not been checked yet
+    rolling_uptime: 1 month rolling uptime (since %{date})
+    last_hours:
+      one: last hour
+      other: last %{count} hours
+    last_months: last months
+    na: N/A
+    uptime: Uptime
+    timings:
+      including_latency: "(<small>incl.</small>&nbsp;latency)"
+      total: 'Total time:'
+      redirections: Redirections
+      dns: Name lookup
+      connection: Connection
+      tls: TLS handshake
+      response: Response time
+    cal:
+      downtime: "%{duration} downtime"
+      no_downtime: No downtime
+      incomplete_day: only %{percent}% of the day have been monitored
+      no_data: No data
+      lt15_downtime: "< 15m downtime"
+      gt15_downtime: "> 15m downtime"
