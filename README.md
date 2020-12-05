@@ -1,2 +1,4 @@
-# translate
- 協助其他網站的一些翻譯
+# updown.io translation
+
+ 協助 updown.io 的網頁翻譯
+ 
